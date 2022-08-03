@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+   <div class="box">
+    
+
+        <h1>Candidates Profile</h1>
+        <div class="profile-pic-div">
+            <img src="default-avatar.png" id="photo">
+            <input type="file" id="file">
+            <label for="file" id="uploadBtn">Choose Photo</label>
+          </div>
+    
+        <form name="myform" onsubmit="return vfun()">
+
+            <p>Candidate Name</p>
+            <input type="text" name="cname" placeholder="Enter Candidate Name">
+            <br>
+            <p>Email</p>
+            <input type="Email" name="email1" placeholder="Enter email id">
+
+            <p>Date of birth</p>
+            <input type="number" name="dob" placeholder="Enter Your dob">
+            <br>
+          
+            <div id="errorBox"></div>
+            <input type="submit" name="" value="Check">
+            <a href="detail.html" class="button-left">Next</a>
+            
+            
+            </form>
+   </div> 
+
+<script src="jquery.js"></script>
+</body>
+</html>

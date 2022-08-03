@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+<title>Register Form</title>
+    <link rel="stylesheet"  href="submit.css">
+   
+<body>
+
+    <div class="form">
+        <div class="title">Who are You?</div>
+      <div class="box">
+        <input type="radio" name="select" id="option-1" />
+        <input type="radio" name="select" id="option-2" />
+        <input type="radio" name="select" id="option-3" />
+        <input type="radio" name="select" id="option-4" />
+        <label for="option-1" class="option-1">
+          <div class="dot"></div>
+          <div class="text">A Programmer</div>
+        </label>
+        <label for="option-2" class="option-2">
+          <div class="dot"></div>
+          <div class="text">A Youtuber</div>
+        </label>
+        <label for="option-3" class="option-3">
+          <div class="dot"></div>
+          <div class="text">A Student</div>
+        </label>
+        <label for="option-4" class="option-4">
+          <div class="dot"></div>
+          <div class="text">A Developer</div>
+        </label>
+      </div>
+      
+      <button class="button" value="ok" type="button" onclick="success()">Submit</button>
+     <script> function success(){
+        alert("Submitted Successfully")
+     }
+    </script>
+        
+    </div>
+    <script src="jquery.js"></script>
+</body>
+</head>
+</html>

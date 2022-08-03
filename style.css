@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Uchen&display=swap');
+
+*{
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-image:linear-gradient(to top,rgb(172, 66, 172),rgb(17, 72, 94),rgb(109, 45, 109));
+    
+}
+
+
+.box{
+    width:35rem;
+    height:45rem;
+    align-items: center;
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-image:linear-gradient(to top,rgb(172, 66, 172),rgb(17, 72, 94),rgb(109, 45, 109));
+    color: white;
+    top: 50%;
+    left: 50%;
+    padding:70px 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 8px 32px 0 rgb(43, 26, 43);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-left: 0.5px solid rgba(255,255,255);
+    border-right: 0.5px solid rgba(255,255,255);
+    border-top: 0.5px solid rgba(255,255,255);
+    border-bottom: 0.5px solid rgba(255,255,255);
+}
+.profile-pic-div{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    align-items:inherit;
+    bottom: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid grey;
+    margin-bottom:70px;
+    margin-left:150px;
+    
+}
+
+#photo{
+    height: 100%;
+    width: 100%;
+}
+
+#file{
+    display: none;
+}
+
+#uploadBtn{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: wheat;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+h1{
+    
+    bottom: 80%;
+    margin-bottom:60px;
+    margin-top: -0.5px;
+    margin-right: 170px;
+    font-family: sans-serif;
+    padding: 20 0 20 0;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(235, 228, 228);
+    font-size:x-large;
+}
+
+p{
+    
+    color: #ceb64d;
+    margin-right: 250px;
+    padding:0;
+    font-weight: bold;
+    font-size: larger;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 150px;
+}
+input[type="submit"]
+            {
+                
+                border: none;
+                outline: none;
+                width:100px;
+                height: 60px;
+                background: #2196f3;
+                color: #fff;
+                font-size: 18px;
+                border-radius: 20px;
+            
+            }
+ input[type="text"], input[type="Email"] ,input[type="number"]
+{
+    margin-right: 150px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #140f1d;
+    font-size: 16px;
+}
+.button-left{
+    margin-top: 10px;
+    text-align: center;
+    border: none;
+    padding:16px 32px;
+    outline: none;
+    width:60px;
+    height:20px;
+    background: #2196f3;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+a:hover{
+    cursor: pointer;
+    background: #0097a7;
+}
+
+
+.button-left{
+    margin-bottom:600px;
+    text-align: center;
+    border: none;
+    padding:16px 32px;
+    outline: none;
+    width:100px;
+    height:20px;
+    background: #2196f3;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    margin-left:210px;
+}
+#errorBox{
+color: rgb(12, 10, 10);
+}
+
+
+h1:hover{
+    color:rgb(54, 8, 43);
+}
+
+
